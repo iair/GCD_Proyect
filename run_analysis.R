@@ -7,16 +7,16 @@ library(data.table)
 library(reshape2)
 
 #Get the data from train and test data sets
-train_data_x<-read.table("~/Documents/Formacion/MOOCS/Data Science Certificate/Getting and Cleaning Data/Proyecto/getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/train/X_train.txt")
-train_data_y<-read.table("~/Documents/Formacion/MOOCS/Data Science Certificate/Getting and Cleaning Data/Proyecto/getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/train/y_train.txt")
-test_data_x<-read.table("~/Documents/Formacion/MOOCS/Data Science Certificate/Getting and Cleaning Data/Proyecto/getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/test/X_test.txt")
-test_data_y<-read.table("~/Documents/Formacion/MOOCS/Data Science Certificate/Getting and Cleaning Data/Proyecto/getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/test/y_test.txt")
-subject_train<-read.table("~/Documents/Formacion/MOOCS/Data Science Certificate/Getting and Cleaning Data/Proyecto/getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/train/subject_train.txt")
-subject_test<-read.table("~/Documents/Formacion/MOOCS/Data Science Certificate/Getting and Cleaning Data/Proyecto/getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/test/subject_test.txt")
+train_data_x<-read.table("~R/UCI HAR Dataset/train/X_train.txt")
+train_data_y<-read.table("~R/UCI HAR Dataset/train/y_train.txt")
+test_data_x<-read.table("~R/UCI HAR Dataset/test/X_test.txt")
+test_data_y<-read.table("~R/UCI HAR Dataset/test/y_test.txt")
+subject_train<-read.table("~R/UCI HAR Dataset/train/subject_train.txt")
+subject_test<-read.table("~R/UCI HAR Dataset/test/subject_test.txt")
 #get the activity labels
-activity_labels<-read.table("~/Documents/Formacion/MOOCS/Data Science Certificate/Getting and Cleaning Data/Proyecto/getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/activity_labels.txt")
+activity_labels<-read.table("~R/UCI HAR Dataset/activity_labels.txt")
 #Get the features
-features<-read.table("~/Documents/Formacion/MOOCS/Data Science Certificate/Getting and Cleaning Data/Proyecto/getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/features.txt")
+features<-read.table("~R/UCI HAR Dataset/features.txt")
 
 #This are the steps wich i follow to get the tidy data:
 
