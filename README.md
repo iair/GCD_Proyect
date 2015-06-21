@@ -36,7 +36,7 @@ with this code: write.csv(tidy_data, file = "tidy_data.csv", row.names = FALSE)
 If you want to test that the headers are not in the values part of the data set you can compare this: head(data_set[2948,1:3]) and head(train_data[1,1:3]) 
 wich shows you the 2948 row of the data sets is the values of the first row of the train data, so thats probe it is ok. Also you can make the sum of thedimensions as a validation.
 
-#This way of get the data achieves the point 3 of the evalution:Uses descriptive activity names to name the activities in the data set gives us descriptive activity names for the activities in the data set. You can validate that running this code: unique(data_set[,2])
+This way of get the data achieves the point 3 of the evalution:Uses descriptive activity names to name the activities in the data set gives us descriptive activity names for the activities in the data set. You can validate that running this code: unique(data_set[,2])
 wich gives you the six activities:WALKING,WALKING_UPSTAIRS,WALKING_DOWNSTAIRS,SITTING, STANDING, LAYING 
 
 
