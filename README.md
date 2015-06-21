@@ -25,7 +25,9 @@ I had to create one R script called run_analysis.R that does the following:
 
 ##R Code
 
-The R code that is used for analysis is available in the run_analysis.R file.Download this file and put it in a working directory call R. [you can see wich is your actual working directory using the following command: getwd()]
+The R code that is used for analysis is available in the run_analysis.R file: https://github.com/iair/GCD_Proyect/blob/master/run_analysis.R
+
+Download this file and put it in a working directory call R. [you can see wich is your actual working directory using the following command: getwd()]
 
 Download the UCI HAR Dataset from this link: 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
