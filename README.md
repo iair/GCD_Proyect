@@ -25,11 +25,17 @@ I had to create one R script called run_analysis.R that does the following:
 
 ##R 
 
-The R code that is used for analysis is available in the run_analysis.R file.
+The R code that is used for analysis is available in the run_analysis.R file.Download this file and put it in a working directory call R. (you can see wich is your actual working directory using the following command: getwd()
+
+Download the UCI HAR Dataset from this link: 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+and save it on the R working directory.
 
 Source the file in R using the following command and it will automatically download the dataset, perform the transformation, tidy the data and save it in the file tidy_data.txt.
 
 source("run_analysis.R")
+
 The tidy data set can be loaded back into R using the following command
 
 tidy_data <- read.table("tidy_data.txt")
@@ -37,8 +43,3 @@ tidy_data <- read.table("tidy_data.txt")
 #The Codebook
 
 The codebook available in this repo describes the variables, the data, the transformations that are done and the clean up that was performed on the data.
-
-
-
-
-
